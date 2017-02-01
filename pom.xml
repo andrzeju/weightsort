@@ -44,6 +44,23 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>gnu</groupId>
+			<artifactId>io</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/resources/RXTXcomm.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>gnu</groupId>
+			<artifactId>io-dll</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<type>dll</type>
+			<systemPath>${project.basedir}/src/main/resources/rxtxSerial.dll</systemPath>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
